@@ -33,3 +33,8 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # output is the screen as a table
 streamlit.dataframe(fruityvice_normalized)
 
+# take the second row and shows it in the table 
+fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
+# output is the screen as a table
+streamlit.dataframe(fruityvice_normalized)
+
